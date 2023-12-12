@@ -28,7 +28,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="{{ route('dashboard') }}" class="nav-link">
+                    <a href="/dashboard" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Dashboard
@@ -36,31 +36,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('anggota.index') }}" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
-                        <p>
-                            Data Kategori
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('buku.index')}}" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
-                        <p>
-                            Data Table
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('petugas.index')}}" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
-                        <p>
-                            Data Food
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('petugas.index')}}" class="nav-link">
+                    <a href="/order" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Data Order
@@ -68,10 +44,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('petugas.index')}}" class="nav-link">
+                    <a href="/masakan" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
-                            Data Orderline
+                            Data Masakan
                         </p>
                     </a>
                 </li>
